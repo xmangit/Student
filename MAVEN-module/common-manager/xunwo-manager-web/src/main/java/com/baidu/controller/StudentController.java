@@ -29,7 +29,7 @@ public class StudentController {
         System.out.println("---------1-----------");
        /* Object s= studentService.getStudent();
         request.setAttribute("student",s);*/
-        System.out.println("---------22333-----------");
+        System.out.println("---------2233345678-----------");
         return "helloworld";
     }
 
