@@ -29,11 +29,16 @@ public class StudentController {
         System.out.println("---------1-----------");
        /* Object s= studentService.getStudent();
         request.setAttribute("student",s);*/
-<<<<<<< HEAD
+
         System.out.println("---------2233345678-----------");
 =======
+<<<<<<< HEAD
         System.out.println("---------22333-----------");
 >>>>>>> student-two
+=======
+        System.out.println("---------22333在分支上修改内容哈哈-----------");
+
+>>>>>>> student-one
         return "helloworld";
     }
 
