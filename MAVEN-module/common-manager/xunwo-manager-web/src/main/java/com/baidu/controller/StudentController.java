@@ -30,7 +30,7 @@ public class StudentController {
        /* Object s= studentService.getStudent();
         request.setAttribute("student",s);*/
 
-        System.out.println("---------223-----------");
+        System.out.println("---------分支修改并合并到主分支-----------");
 
 
 
