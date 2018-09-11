@@ -30,15 +30,10 @@ public class StudentController {
        /* Object s= studentService.getStudent();
         request.setAttribute("student",s);*/
 
-        System.out.println("---------2233345678-----------");
-=======
-<<<<<<< HEAD
-        System.out.println("---------22333-----------");
->>>>>>> student-two
-=======
-        System.out.println("---------22333在分支上修改内容哈哈-----------");
+        System.out.println("---------223-----------");
 
->>>>>>> student-one
+
+
         return "helloworld";
     }
 
