@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="commonmanager:war">
+    <output-path>$PROJECT_DIR$/commonmanager/target</output-path>
+    <root id="archive" name="common-manager-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="commonmanager:war exploded" />
+    </root>
+  </artifact>
+</component>

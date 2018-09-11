@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.baidu.dao.StudentDao">
+
+   <!-- <resultMap id="studentmap" type="com.baidu.bean.Student">
+        <result column="sid" property="sid"/>
+        <result column="age" property="age"/>
+        <result column="sname" property="sname"/>
+     </resultMap>-->
+
+
+
+    <!--获取学生列表测试-->
+    <select id="getStudent" resultType="com.baidu.bean.Student">
+        select sid,age,sname from student
+    </select>
+
+    <!--获取学生列表-->
+    <select id="getStudentList" resultType="com.baidu.bean.Student">
+        select sid,age,sname from student
+    </select>
+    <!--根据学生编号获取信息-->
+    <select id="getStudentById" resultType="com.baidu.bean.Student" >
+        select sid,age,sname from student where sid=#{s.sid}
+    </select>
+    <!--添加学生信息-->
+    <insert id="addStudent">
+        insert into student (sid,age,sname) values (null,#{s.age},#{s.sname})
+    </insert>
+    <!--修改学生信息-->
+    <update id="updateStudent">
+        update student set age=#{s.age},sname=#{s.sname} where sid=#{s.sid}
+    </update>
+    <!--删除学生信息-->
+    <delete id="deleteStudent">
+        delete from student where sid=#{s.sid}
+    </delete>
+</mapper>

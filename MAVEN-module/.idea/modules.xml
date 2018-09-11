@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-manager/common-manager.iml" filepath="$PROJECT_DIR$/common-manager/common-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-parent.iml" filepath="$PROJECT_DIR$/common-parent/common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-manager/xunwo-manager-mapper/xunwo-manager-mapper.iml" filepath="$PROJECT_DIR$/common-manager/xunwo-manager-mapper/xunwo-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-manager/xunwo-manager-pojo/xunwo-manager-pojo.iml" filepath="$PROJECT_DIR$/common-manager/xunwo-manager-pojo/xunwo-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-manager/xunwo-manager-service/xunwo-manager-service.iml" filepath="$PROJECT_DIR$/common-manager/xunwo-manager-service/xunwo-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-manager/xunwo-manager-web/xunwo-manager-web.iml" filepath="$PROJECT_DIR$/common-manager/xunwo-manager-web/xunwo-manager-web.iml" />
+    </modules>
+  </component>
+</project>
